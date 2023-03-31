@@ -1,6 +1,7 @@
 # Stopwatch Touchportal Plugin
 
-![image](https://user-images.githubusercontent.com/76603653/229237135-a37a6e71-9e21-4955-8e91-e6e353c39ac9.png)
+![image](https://user-images.githubusercontent.com/76603653/229237235-daec6f99-f6fc-4867-a884-460c5715688c.png)
+
 
 
 This plugin provides a simple stopwatch function that can be used to time actions in Touchportal, or potentially used to create a reaction game in OBS.
