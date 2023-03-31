@@ -1,5 +1,3 @@
-# Stopwatch Touchportal Plugin
-
 ![image](https://user-images.githubusercontent.com/76603653/229237235-daec6f99-f6fc-4867-a884-460c5715688c.png)
 
 
