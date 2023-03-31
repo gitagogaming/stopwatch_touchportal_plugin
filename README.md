@@ -1,18 +1,12 @@
 # Stopwatch Touchportal Plugin
 
-A very simple stopwatch plugin.<br>
-Use it to calculate the time it takes to complete certain actions in Touchportal, and or potentially use it for creating some sort of react game inside of OBS.
+This plugin provides a simple stopwatch function that can be used to time actions in Touchportal, or potentially used to create a reaction game in OBS.
 
+## Features
 
-**Actions:**
-- Start Stopwatch and displayed decimal places
-- Stop Stopwatch
-
-
-**States:**
-- Status: Started / Stopped
-- Current Elapsed Time
-- Total Elapsed Time
-
-
-Any feature requests/ideas please open an issue or reach out to me in the TouchPortal Discord.
+- **Start Stopwatch:** Specify a name & start a new stopwatch - Displays the elapsed time
+- **Pause Stopwatch:** Pauses the current stopwatch and display the final elapsed time.
+- **Reset Stopwatch:** Stops & Resets the stopwatches counter to 0
+- **States:**
+  - **Status:** Indicates whether the stopwatch is currently running or stopped.
+  - **Current Elapsed Time:** Displays the elapsed time for the current stopwatch.
