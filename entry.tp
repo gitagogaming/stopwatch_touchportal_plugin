@@ -1,6 +1,6 @@
 {
   "sdk": 6,
-  "version": 210,
+  "version": 211,
   "name": "Stopwatch",
   "id": "tp.plugin.Gitago.Stopwatch",
   "configuration": {
