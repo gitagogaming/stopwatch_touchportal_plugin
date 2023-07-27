@@ -8,6 +8,8 @@
     "colorLight": "#707ab5"
   },
   "plugin_start_cmd": "%TP_PLUGIN_FOLDER%Stopwatch\\TP_STOPWATCH.exe",
+  "plugin_start_cmd_linux": "sh %TP_PLUGIN_FOLDER%Stopwatch//start.sh TP_STOPWATCH",
+  "plugin_start_cmd_mac": "sh %TP_PLUGIN_FOLDER%Stopwatch//start.sh TP_STOPWATCH",
   "categories": [
     {
       "id": "tp.plugin.Gitago.Stopwatch.main",
