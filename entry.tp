@@ -1,0 +1,47 @@
+{
+  "sdk": 6,
+  "version": 210,
+  "name": "Stopwatch",
+  "id": "tp.plugin.Gitago.Stopwatch",
+  "configuration": {
+    "colorDark": "#25274c",
+    "colorLight": "#707ab5"
+  },
+  "plugin_start_cmd": "%TP_PLUGIN_FOLDER%Stopwatch\\TP_STOPWATCH.exe",
+  "categories": [
+    {
+      "id": "tp.plugin.Gitago.Stopwatch.main",
+      "name": "Stopwatch",
+      "imagepath": "%TP_PLUGIN_FOLDER%Stopwatch/stopwatch-icon.png",
+      "actions": [
+        {
+          "id": "tp.plugin.Gitago.Stopwatch.act.start_stopwatch",
+          "name": "Stopwatch: START / PAUSE / RESET",
+          "prefix": "Stopwatch: START / PAUSE / RESET",
+          "type": "communicate",
+          "format": "{$tp.plugin.Gitago.Stopwatch.act.status$} a Stopwatch with the ID {$tp.plugin.Gitago.Stopwatch.act.stopwatch_name$}",
+          "tryInline": true,
+          "hasHoldFunctionality": true,
+          "data": [
+            {
+              "id": "tp.plugin.Gitago.Stopwatch.act.status",
+              "type": "choice",
+              "label": "Text",
+              "default": "Start",
+              "valueChoices": ["Start", "Pause", "Reset"]
+            },
+            {
+              "id": "tp.plugin.Gitago.Stopwatch.act.stopwatch_name",
+              "label": "stop watch name",
+              "type": "text",
+              "default": "0"
+            }
+          ]
+        } 
+      ],
+      "states": [],
+      "events": []
+    }
+  ],
+  "settings": []
+}
