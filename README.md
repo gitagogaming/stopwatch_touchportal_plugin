@@ -12,4 +12,8 @@ This plugin provides a simple stopwatch function that can be used to time action
 
 ## States:
   - **Status:** Indicates whether the stopwatch is currently running or stopped.
+      - RUNNING
+      - STOPPED
+      - PAUSED
+      - RESET
   - **Current Elapsed Time:** Displays the elapsed time for the current stopwatch.
